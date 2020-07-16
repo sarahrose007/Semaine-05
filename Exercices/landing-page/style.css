@@ -72,10 +72,10 @@ body {
 
 
 
-//*h1 {
-background-color: crimson;
-font-style: italic;
-color: antiquewhite;
+h1 {
+  background-color: crimson;
+  font-style: italic;
+  color: antiquewhite;
 }
 
 h2 {
@@ -113,7 +113,7 @@ img {
 
   h2 {
     color: #e71d36;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     text-align: left;
   }
 
