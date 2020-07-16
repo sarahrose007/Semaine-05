@@ -45,7 +45,7 @@ Il s'agit d'un élément qui définis un formulaire utilisé pour récupérer le
 |---|---|
 |action | L'url du programme qui traitera les informations envoyées par le formulaire.|
 |autocomplete | Permet d'autoriser (par défaut) ou non le navigateur à remplir les champs par des informations obtenue précédemment.|
-|method | Défini si on utilise la méthode `post`, `get`(par défaut) ou `dialog` pour envoyer les informations au serveur.|
+|method | Défde `post`, `get`(par défaut) ou `dialog` pour envoyer les informations au serveur.|
 |name | Précise le nom du formulaire, il doit être unique parmi tous les autres formulaires présents sur le même document.|
 
 :closed_book:[En savoir plus](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form)
