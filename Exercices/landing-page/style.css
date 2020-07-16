@@ -1,0 +1,86 @@
+body {
+  background-color: blueviolet;
+  color: blue;
+}
+
+//*h1 {
+background-color: crimson;
+font-style: italic;
+color: antiquewhite;
+}
+
+h2 {
+  background-color: darkblue;
+  font: 1em sans-serif;
+  color: aquamarine;
+}
+
+h3 {
+  background-color: darkkhaki;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+}
+
+.a {
+  color: brown;
+  font-style: italic;
+}
+
+button {
+  background-color: chartreuse;
+
+}
+
+.Circle {
+  background-color: darkcyan;
+  position: absolute;
+  width: 20px;
+  border-radius: 100%;
+}
+
+img {
+  margin: 10px;
+  max-width: 500px;
+
+  h2 {
+    color: #e71d36;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2ec4b6;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: #ff9f1c;
+  }
+
+  section.exercice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    * //span {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 48px;
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+  }
+
+  .Card_X {
+    border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px;
+    width: 50%;
+  }
