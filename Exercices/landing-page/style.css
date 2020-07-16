@@ -10,6 +10,73 @@ body {
 
 }
 
+/*h1.ml8 {
+font-weight: 900;
+font-size: 4.5em;
+color: #fff;
+width: 3em;
+height: 3em;
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+
+.ml8 .bang {
+  font-size: 1.4em;
+  top: auto;
+  left: -0.06em;
+}
+
+.ml8 .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.ml8 .circle-white {
+  width: 3em;
+  height: 3em;
+  border: 2px dashed white;
+  border-radius: 2em;
+}
+
+.ml8 .circle-dark {
+  width: 2.2em;
+  height: 2.2em;
+  background-color: #4f7b86;
+  border-radius: 3em;
+  z-index: 1;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 2.4em;
+  background-color: transparent;
+  border: 2px dashed #4f7b86;
+  width: 2.3em;
+  height: 2.3em;
+}*/
+
+
+
 .circle1 {
   position: absolute;
   top: 20%;
@@ -111,11 +178,7 @@ img {
   margin: 10px;
   max-width: 500px;
 
-  h2 {
-    color: #e71d36;
-    font-family: sans-serif;
-    text-align: left;
-  }
+
 
   a {
     text-decoration: none;
@@ -144,12 +207,4 @@ img {
     line-height: 3em;
     text-align: center;
     width: 3em;
-  }
-
-  .Card_X {
-    border: chartreuse 5px solid;
-    border-radius: 20px;
-    padding: 50px;
-    margin: 10px;
-    width: 50%;
   }
