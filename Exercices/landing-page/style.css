@@ -9,18 +9,6 @@ body {
   font-style: italic;
 }
 
-header,
-#m-header__logo,
-nav,
-footer,
-#o-medias {
-  display: flex;
-  align-items: center;
-}
-
-.picto {
-  width: 15px;
-}
 
 header {
   width: 85%;
