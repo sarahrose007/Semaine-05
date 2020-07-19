@@ -20,21 +20,33 @@ body {
   margin-right: 10%;
 }
 
-.Discover {
+#Discover {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.Twitter {
+  margin-right: 8px;
   margin-left: 10%;
 }
 
+.Facebook {
+  margin-right: 8px;
+  margin-left: 10%;
+
+}
 
 /* Header */
-//*header {
-display: flex;
-align-items: center;
-width: 85%;
-height: 7vh;
-margin: 0 auto;
-position: absolute;
-top: 5vh;
-justify-content: space-between;
+header {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  height: 7vh;
+  margin: 0 auto;
+  position: absolute;
+  top: 5vh;
+  justify-content: space-between;
 }
 
 .Discover {
@@ -55,16 +67,6 @@ justify-content: space-between;
   line-height: 50px;
   position: relative;
   top: -3vh;
-}
-
-
-
-
-
-.Logo {
-  width: 40px;
-  height: 40px;
-  margin-right: 10%;
 }
 
 h1 {
@@ -135,7 +137,7 @@ h1 {
   opacity: 15%;
 }
 
-//*
+
 h2 {
   background-color: darkblue;
   font: 1em sans-serif;
@@ -156,16 +158,15 @@ h3 {
 
 
 /* Liens */
-//*a {
-text-decoration: none;
-color: #2ec4b6;
-text-transform: uppercase;
-font-style: italic;
+*a {
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 a:hover {
   font-size: 14px;
-  font color: #ff9f1c;
   -weight: bold;
 
 }
