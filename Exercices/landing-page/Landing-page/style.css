@@ -4,6 +4,50 @@ iframe[seamless] {
 }
 
 body {
+  background-color: #2F3038;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 40px;
+}
+
+.header-title {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+}
+
+/* FIN HEADER */
+
+.main-container {
+  background-color: red;
+}
+
+/*body {
   color: whitesmoke;
   width: 100%;
   height: 100%;
@@ -93,6 +137,7 @@ h1 {
   background-color: cornsilk;
   font-style: italic;
   color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
 }
 
 
