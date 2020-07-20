@@ -10,9 +10,9 @@ body {
   font-size: 14px;
 }
 
-#LANDING_PAGE {
-  display: flex;
-  align-items: center;
+//*#LANDING_PAGE {
+display: flex;
+align-items: center;
 }
 
 #Logo {
