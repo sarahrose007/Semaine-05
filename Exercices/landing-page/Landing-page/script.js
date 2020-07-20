@@ -1,5 +1,3 @@
-[10: 36] Julie Vanderbyse
-
 fetch("https://quotes-light-api.herokuapp.com/api/comments/", {
     method: "GET"
   })
