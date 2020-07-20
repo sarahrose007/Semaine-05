@@ -4,24 +4,29 @@ iframe[seamless] {
 }
 
 body {
+  color: whitesmoke;
   width: 100%;
   height: 100%;
-  background-color: #211321;
+  background-color: rgb(47, 48, 56);
   font-family: Poppins,
     sans-serif;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
-
-/*#Gril {
-  height: 65vh;
+#Gril {
+  width: 100%;
+  height: auto;
   position: absolute;
   bottom: 0;
   margin-left: 7.5%;
   z-index: -1;
 }
+
+
 
 
 /*#LANDING_PAGE {
@@ -50,18 +55,17 @@ align-items: center;
   margin-right: 8px;
   margin-left: 10%;
 
-}
+}*/
 
-//* Header */
-/*header {
-display: flex;
-align-items: center;
-width: 85%;
-height: 7vh;
-margin: 0 auto;
-position: absolute;
-top: 5vh;
-justify-content: space-between;
+header {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  height: 7vh;
+  margin: 0 auto;
+  position: absolute;
+  top: 5vh;
+  justify-content: space-between;
 }
 
 .Discover {

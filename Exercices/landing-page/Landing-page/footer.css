@@ -3,3 +3,39 @@
 body {
   background-color: transparent;
 }
+
+footer {
+  height: 10rem;
+  background-color: rgb(32, 32, 39);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 1rem 1rem 1rem 0;
+  padding-top: 1rem;
+}
+
+.o-footer-nav li {
+  padding-bottom: 1rem;
+}
+
+.o-footer-social-media {
+  margin: 2rem 2rem 1rem 1rem;
+  padding-right: 1rem;
+
+}
+
+.m-footer-social-media--items {
+
+  padding: 0 0 1rem 1rem;
+  margin-left: 1rem;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.m-footer-social-media--items i {
+  color: rgb(255, 255, 255);
+  margin-right: 0.6rem;
+}
