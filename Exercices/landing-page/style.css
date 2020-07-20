@@ -39,15 +39,15 @@ align-items: center;
 }
 
 /* Header */
-header {
-  display: flex;
-  align-items: center;
-  width: 85%;
-  height: 7vh;
-  margin: 0 auto;
-  position: absolute;
-  top: 5vh;
-  justify-content: space-between;
+//*header {
+display: flex;
+align-items: center;
+width: 85%;
+height: 7vh;
+margin: 0 auto;
+position: absolute;
+top: 5vh;
+justify-content: space-between;
 }
 
 .Discover {
@@ -139,13 +139,13 @@ h1 {
 }
 
 
-h2 {
-  background-color: darkblue;
-  font: 1em sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 108px;
-  color: aquamarine;
+//*h2 {
+background-color: darkblue;
+font: 1em sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 108px;
+color: aquamarine;
 
 }
 
@@ -159,11 +159,11 @@ h3 {
 
 
 /* Liens */
-*a {
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
+//*a {
+text-decoration: none;
+color: #2ec4b6;
+text-transform: uppercase;
+font-style: italic;
 }
 
 a:hover {
