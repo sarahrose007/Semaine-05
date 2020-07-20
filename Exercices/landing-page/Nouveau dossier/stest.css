@@ -215,7 +215,9 @@ footer {
 }
 
 /* Classes liées à la page FORM */
-.o-form-main--fun {}
+.o-form-main--fun {
+  color: #000;
+}
 
 .o-form-main--fun h1 {
   font-size: 2.4rem;
