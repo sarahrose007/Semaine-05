@@ -24,7 +24,7 @@ body {
 }
 
 
-//*#LANDING_PAGE {
+/*#LANDING_PAGE {
 display: flex;
 align-items: center;
 }
@@ -153,7 +153,7 @@ h1 {
 }
 
 
-//*h2 {
+/*h2 {
 background-color: darkblue;
 font: 1em sans-serif;
 font-weight: 600;
@@ -173,7 +173,7 @@ h3 {
 
 
 /* Liens */
-//*a {
+/*a {
 text-decoration: none;
 color: #2ec4b6;
 text-transform: uppercase;
