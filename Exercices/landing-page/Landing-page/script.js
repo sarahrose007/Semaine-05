@@ -22,6 +22,8 @@ fetch("https://quotes-light-api.herokuapp.com/api/comments/", {
       let currentDiv = document.getElementById("point-de-repere");
       document.body.insertBefore(divAuteur, currentDiv.nextElementSibling);
       document.body.insertBefore(divComment, currentDiv.nextElementSibling);
+      divAuteur.setAttribute("class", div - auteur);
+      divComment.setAttribute("class", "div-comment");
       //je spécifie à quel endroit de mon HTML je veux insérer ce contenu
     });
   })
