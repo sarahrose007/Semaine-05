@@ -4,7 +4,6 @@ iframe[seamless] {
 }
 
 body {
-  background-color: transparent;
   width: 100%;
   height: 100%;
   background-color: #211321;
@@ -15,9 +14,19 @@ body {
   font-size: 14px;
 }
 
-#LANDING_PAGE {
-  display: flex;
-  align-items: center;
+
+#Gril {
+  height: 65vh;
+  position: absolute;
+  bottom: 0;
+  margin-left: 7.5%;
+  z-index: -1;
+}
+
+
+//*#LANDING_PAGE {
+display: flex;
+align-items: center;
 }
 
 #Logo {
@@ -43,16 +52,16 @@ body {
 
 }
 
-/* Header */
-header {
-  display: flex;
-  align-items: center;
-  width: 85%;
-  height: 7vh;
-  margin: 0 auto;
-  position: absolute;
-  top: 5vh;
-  justify-content: space-between;
+//* Header */
+//*header {
+display: flex;
+align-items: center;
+width: 85%;
+height: 7vh;
+margin: 0 auto;
+position: absolute;
+top: 5vh;
+justify-content: space-between;
 }
 
 .Discover {
@@ -144,13 +153,13 @@ h1 {
 }
 
 
-h2 {
-  background-color: darkblue;
-  font: 1em sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 108px;
-  color: aquamarine;
+//*h2 {
+background-color: darkblue;
+font: 1em sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 108px;
+color: aquamarine;
 
 }
 
@@ -164,11 +173,11 @@ h3 {
 
 
 /* Liens */
-*a {
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
+//*a {
+text-decoration: none;
+color: #2ec4b6;
+text-transform: uppercase;
+font-style: italic;
 }
 
 a:hover {
