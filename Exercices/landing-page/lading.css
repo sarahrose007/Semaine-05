@@ -1,7 +1,11 @@
-.div-auteur {
+body {
+  background-color: blanchedalmond;
+}
+
+#auteur {
   background-color: purple;
 }
 
-.div-comment {
+#comment {
   background-color: bisque;
 }
