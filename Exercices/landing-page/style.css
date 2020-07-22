@@ -79,20 +79,20 @@ z-index: -1;
 
 
 /*<!-- <FOOTER> -->*/
-footer {
+.sac {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 50%;
   height: 7vh;
-  margin: 0 auto;
   position: absolute;
-  top: 5vh;
-  border: chartreuse 5px solid;
+  bottom: 5vh;
+  border: orange 5px solid;
   border-radius: 20px;
   padding: 50px;
   margin: 10px;
   width: 50%;
 }
+
 
 /*<!-- <INFO> -->*/
 .INFO {
@@ -173,7 +173,7 @@ footer {
 }
 
 .Facebook {
-  display: flex;
+  display: inline-block;
   align-items: center;
   margin: 10px;
   margin-left: 1250 px;
