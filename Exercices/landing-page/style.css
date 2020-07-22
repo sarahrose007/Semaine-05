@@ -3,10 +3,10 @@ body {
   font-family: Poppins,
     sans-serif;
   background-color: #2F3038;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
@@ -36,6 +36,11 @@ header {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
 }
 
 .header-title {
@@ -82,6 +87,11 @@ footer {
   margin: 0 auto;
   position: absolute;
   top: 5vh;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
 }
 
 /*<!-- <INFO> -->*/
@@ -90,6 +100,11 @@ footer {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
 }
 
 .INFO a {
@@ -114,6 +129,11 @@ footer {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
 }
 
 .RESEAU a {
@@ -124,6 +144,11 @@ footer {
   color: #2ec4b6;
   text-transform: uppercase;
   font-style: italic;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
 }
 
 /*<!-- <Reseaux Social> -->*/
@@ -193,8 +218,8 @@ footer {
   top: 0%;
   left: 30%;
   background-color: pink;
-  width: 40px;
-  height: 40px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
   z-index: -999;
   opacity: 15%;
@@ -205,8 +230,8 @@ footer {
   top: 45%;
   left: 55%;
   background-color: papayawhip;
-  width: 50px;
-  height: 50px;
+  width: 520px;
+  height: 520px;
   border-radius: 100%;
   z-index: -999;
   opacity: 15%;
@@ -217,8 +242,8 @@ footer {
   top: 23%;
   left: 25%;
   background-color: burlywood;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   z-index: -999;
   opacity: 15%;
@@ -229,8 +254,8 @@ footer {
   top: 26%;
   left: 57%;
   background-color: greenyellow;
-  width: 45px;
-  height: 45px;
+  width: 85px;
+  height: 85px;
   border-radius: 100%;
   z-index: -999;
   opacity: 15%;
