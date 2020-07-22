@@ -83,11 +83,10 @@ h1 {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
-  margin-left: 50%;
-  margin-top: 19vh;
+
   font-size: 20px;
   line-height: 50px;
-  position: relative;
+
   top: -3vh;
 }
 
@@ -177,37 +176,64 @@ h1 {
 }
 
 
-//*h2 {
+h2 {
 
-font: 1em sans-serif;
-font-weight: 600;
-font-size: 48px;
-line-height: 108px;
-color: aquamarine;
-text-decoration: none;
-color: #2ec4b6;
-text-transform: uppercase;
-font-style: italic;
+  font: 1em sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100px;
+  color: aquamarine;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
 
 }
 
-//*h3 {
-background-color: darkkhaki;
-position: relative;
-top: -3vh;
-font-family: 'Lucida Sans',
-'Lucida Sans Regular',
-'Lucida Grande',
-'Lucida Sans Unicode',
-Geneva,
-Verdana,
-sans-serif;
-color: antiquewhite;
+h3 {
+  font-style: italic;
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*position: relative;
+  top: -3vh;
+  font-family:
+    font: 1em sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100px;
+  color: darkkhaki;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
+
 }
 
 
 /* Liens */
-/*a {
+  /*a {
 text-decoration: none;
 color: #2ec4b6;
 text-transform: uppercase;
