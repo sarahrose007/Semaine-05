@@ -64,18 +64,42 @@ h1 {
 
 
 /*<!-- <FOOTER> -->*/
+.RESEAU {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 40px;
+}
 
+.RESEAU a {
+  margin-left: 20px;
+  font-size: 14px;
 
+  -weight: bold;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/*<!-- <Reseaux Social> -->*/
 
 .Twitter {
   display: flex;
   align-items: center;
   margin-right: 8px;
-  margin-left: 10%;
-  margin-left: 20px;
-
   margin: 10px;
   margin-right: 40px;
+
+}
+
+.a:hover {
+  font-size: 14px;
+  -weight: bold;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .Facebook {
@@ -83,11 +107,10 @@ h1 {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
-
   font-size: 20px;
   line-height: 50px;
-
   top: -3vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -191,94 +214,46 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
-  color: antiquewhite;
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
+  color: antiquewhite;
   text-decoration: none;
-  color: #2ec4b6;
   text-transform: uppercase;
-  font-style: italic;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*position: relative;
-  top: -3vh;
-  font-family:
-    font: 1em sans-serif;
   font-weight: 600;
   font-size: 25px;
   line-height: 100px;
-  color: darkkhaki;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
   font-style: italic;
 
-}
+
+  button {
+    background-color: chartreuse;
+  }
 
 
-/* Liens */
-  /*a {
-text-decoration: none;
-color: #2ec4b6;
-text-transform: uppercase;
-font-style: italic;
-}
+  //*#Gril {
+  margin: 10px;
+  max-width: 500px;
+  height: 65vh;
+  position: absolute;
+  bottom: 0;
+  margin-left: 7.5%;
+  z-index: -1;
 
-a:hover {
-  font-size: 14px;
-  -weight: bold;
-
-}
-
-button {
-  background-color: chartreuse;
-
-}
-
-
-//*#Gril {
-margin: 10px;
-max-width: 500px;
-height: 65vh;
-position: absolute;
-bottom: 0;
-margin-left: 7.5%;
-z-index: -1;
-
-
-
-
-section.exercice {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  width: 75%;
-  text-align: center;
-  margin: auto;
-  * //span {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  display: block;
-  font-size: 48px;
-  height: auto;
-  line-height: 3em;
-  text-align: center;
-  width: 3em;
-}
+  section. {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    * //span {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 48px;
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+  }
