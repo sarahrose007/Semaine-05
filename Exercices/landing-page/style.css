@@ -23,31 +23,36 @@ header {
   margin: 0 auto;
   position: absolute;
   top: 5vh;
-  justify-content: space-between;
 }
 
-#Logo {
-  width: 40px;
-  height: 40px;
-  margin-right: 10%;
+.logo {
   display: flex;
   align-items: center;
   margin: 10px;
   margin-left: 40px;
+  width: 60px;
+  height: 60px;
+  margin-right: 10%;
+
 }
 
 .nav {
   display: flex;
+  align-items: center;
   margin: 10px;
   margin-right: 40px;
   margin-left: 10%;
-  align-items: center;
+
 }
 
 .nav a {
   margin-left: 20px;
 }
 
+.header-title {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
 
 //*#Discover {
 margin-left: 10%;
