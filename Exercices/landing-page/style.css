@@ -78,12 +78,17 @@ h1 {
 }
 
 .Facebook {
-  margin-right: 8px;
-  margin-left: 10%;
   display: flex;
   align-items: center;
   margin: 10px;
   margin-right: 40px;
+  margin-left: 50%;
+  margin-top: 19vh;
+  font-size: 20px;
+  line-height: 50px;
+  position: relative;
+  top: -3vh;
+
 }
 
 
