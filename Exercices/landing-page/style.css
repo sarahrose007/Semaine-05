@@ -67,7 +67,8 @@ h1 {
   font-style: italic;
 }
 
-//*#Gril {
+/* image de la femme noire
+#Gril {
 margin: 10px;
 max-width: 500px;
 height: 65vh;
@@ -75,57 +76,37 @@ position: absolute;
 bottom: 0;
 margin-left: 7.5%;
 z-index: -1;
-
+*/
 
 
 /*<!-- <FOOTER> -->*/
+.perso_info {
+  display: flex;
+  justify-content: left;
+}
+
 .sac {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 50%;
-  height: 7vh;
-  position: absolute;
-  bottom: 5vh;
-  border: orange 5px solid;
+
+  border: white 5px solid;
   border-radius: 20px;
-  padding: 50px;
-  margin: 10px;
-  width: 50%;
 }
+
 
 
 /*<!-- <INFO> -->*/
-.INFO {
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  margin-right: 40px;
-  border: chartreuse 5px solid;
-  border-radius: 20px;
-  padding: 50px;
-  margin: 10px;
-  width: 50%;
-}
 
-.INFO a {
-  margin-left: 20px;
-  font-size: 14px;
-
-  -weight: bold;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
-}
 
 /*<!-- <Reseaux Social> -->*/
 
 .RESEAU {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 10px;
-  margin-right: 40px;
+
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
@@ -133,8 +114,8 @@ z-index: -1;
   border: chartreuse 5px solid;
   border-radius: 20px;
   padding: 50px;
-  margin: 10px;
-  width: 50%;
+
+
 }
 
 .RESEAU a {
