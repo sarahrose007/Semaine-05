@@ -68,11 +68,12 @@ h1 {
 
 
 .Twitter {
+  display: flex;
+  align-items: center;
   margin-right: 8px;
   margin-left: 10%;
   margin-left: 20px;
-  display: flex;
-  align-items: center;
+
   margin: 10px;
   margin-right: 40px;
 }
@@ -88,7 +89,6 @@ h1 {
   line-height: 50px;
   position: relative;
   top: -3vh;
-
 }
 
 
