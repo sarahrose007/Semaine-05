@@ -13,8 +13,9 @@ body {
   font-size: 14px;
 }
 
+/*
 /*<!-- <HERADER> -->*/
-header {
+/*header {
   display: flex;
   justify-content: space-between;
   width: 85%;
@@ -56,7 +57,7 @@ header {
 
 /*<!-- <CORPS> -->*/
 
-h1 {
+/*h1 {
   font-style: italic;
   color: antiquewhite;
   font-family: 'Poppins', sans-serif;
@@ -66,6 +67,55 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+
+.ALBUMS {
+  position: absolute;
+  left: 150px;
+  top: 20px;
+}
+
+.Album4 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1023px;
+  top: 251px;
+
+  background: url(Cover03.jpg);
+}
+
+.Album3 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1023px;
+  top: 544.84px;
+
+  background: url(Cover02.jpg);
+}
+
+.Album1 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1240px;
+  top: 545px;
+
+
+  background: url(Cover01.jpg);
+}
+
+.Album2 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1240px;
+  top: 251px;
+
+  background: url(Cover04.jpg);
+}
+
+
 
 /* image de la femme noire
 #Gril {
