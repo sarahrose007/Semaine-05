@@ -166,7 +166,7 @@ z-index: -1;
 
 
 /* Circle */
-. circle {
+. Circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
   border-radius: 100%;
