@@ -80,23 +80,27 @@ z-index: -1;
 
 
 /*<!-- <FOOTER> -->*/
-.perso_info {
+footer {
   display: flex;
-  justify-content: left;
-}
-
-.sac {
-  display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   justify-content: space-between;
 
   border: white 5px solid;
   border-radius: 20px;
 }
 
+.perso_info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  margin-right: 40px;
+}
 
-
-/*<!-- <INFO> -->*/
+.footer-title {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
 
 
 /*<!-- <Reseaux Social> -->*/
