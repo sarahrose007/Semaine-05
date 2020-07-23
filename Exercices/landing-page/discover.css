@@ -11,6 +11,8 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
+  width: 1700px;
+  height: 1080px;
 }
 
 /*<!-- <HERADER> -->*/
@@ -227,70 +229,74 @@ h6 {
 }
 
 /*<!-- <FOOTER> -->*/
+.TW {
+  position: absolute;
+  width: 67px;
+  height: 37px;
+  left: 1060px;
+  top: 25px;
 
-.perso_info {
-  display: flex;
-  justify-content: left;
-}
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 
-.sac {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  border: white 5px solid;
-  border-radius: 20px;
-}
-
-.RESEAU {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 10px;
-
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 14px;
-  border: chartreuse 5px solid;
-  border-radius: 20px;
-  padding: 50px;
-
+  color: #FFF3F3;
 
 }
 
-.RESEAU a {
-  margin-left: 20px;
-  font-size: 14px;
-  -weight: bold;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
-  border: chartreuse 5px solid;
-  border-radius: 20px;
-  padding: 50px;
-  margin: 10px;
-  width: 50%;
-}
+.FB {
+  position: absolute;
+  width: 67px;
+  height: 37px;
+  left: 1369px;
+  top: 25px;
 
-.Twitter {
-  display: flex;
-  align-items: center;
-  margin-right: 8px;
-  margin: 10px;
-  margin-right: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFF3F3;
 
 }
 
-.a:hover {
-  font-size: 14px;
-  -weight: bold;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
+
+#Abouts {
+  position: absolute;
+  width: 96px;
+  height: 16px;
+  left: 109px;
+  top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFCFC;
 }
+
+#Contact {
+  position: absolute;
+  width: 84px;
+  height: 28px;
+  left: 325px;
+  top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFAFA;
+
+}
+
 
 .FB {
   /* display: inline-block;
