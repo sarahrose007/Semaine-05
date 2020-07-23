@@ -11,8 +11,6 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
-  width: 1700px;
-  height: 1080px;
 }
 
 /*<!-- <HERADER> -->*/
@@ -49,13 +47,26 @@ header {
 .header-title {
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
+  top: 20px;
 }
 
 .nav a {
   margin-left: 20px;
 }
 
-/*<!-- <CORPS> -->*/
+/*<!-- <CORPS> -->*
+
+h1 {
+  font-style: italic;
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -101,7 +112,7 @@ h4 {
   color: #FFFBFB;
 
 
-}
+}*
 
 img.CHARTS {
   position: absolute;
@@ -228,7 +239,7 @@ h6 {
   background: url(Cover04.jpg);
 }
 
-/*<!-- <FOOTER> -->*/
+/*<!-- <FOOTER> -->*
 .TW {
   position: absolute;
   width: 67px;
@@ -311,16 +322,8 @@ h6 {
   width: 67px;
   height: 37px;
   left: 1369px;
-  top: 25px;*/
+  top: 25px;}*/
 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFF3F3;
-}
 
 /* Circle */
 /*. circle {
