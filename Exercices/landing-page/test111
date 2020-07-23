@@ -1,365 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yana Snytko's resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Joellie Sprumont" />
+    <title>Joéllie Sprumont : Curriculum Vitae</title>
     <link href="style.css" media="all" rel="stylesheet" type="text/css" />
-  </head>
-  <body itemscope itemtype="https://schema.org/Person">
-    <header role="banner">
-      <h1 itemprop="name">
-        Yana Snytko
-      </h1>
-      <h2 itemprop="jobTitle">
-        Developer Web Junior
-      </h2>
-      <p id="intro">
-        With knowledge in web and design, as well as in marketing,
-        <br />
-        I would like to participate in the development of the digital world.
-      </p>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+     </head>
+<body>
+    <!-- Hello Sirius, voici mon CV -->
+    <header>
+      <div class="name-function">
+        <div id="name">
+        <h1>Joéllie Sprumont</h1>
+          <h2>Web dev junior</h2>
+        </div>
+      </div>
+      <nav>
+          <ul>
+            <li><a href="#about-me">/About</a></li>
+            <li><a href="#education">/Education</a></li>
+            <li><a href="#work-experience">/Work-experience</a></li>
+            <li><a href="#skills">/Skills</a></li>
+            <li><a href="#interests">/Interest</a></li>
+          </ul>
+      </nav>
     </header>
-    <main role="main">
-      <div id="education">
-        <h3>
-          Education
-        </h3>
-        <table role="table">
-          <tr role="row">
-            <th role="cell">
-              Now
-            </th>
-            <td itemprop="affiliation hasOccupation" role="cell">
-              <a
-                href="https://siriushub.be/contenu-de-la-formation/"
-                title="Go to the site of Sirius Hub"
-                target="_blank"
-                role="link"
-              >
-                Developpement
-                <span class="competence">Web</span>
-                Training (7 month), Sirius Hub, Liège&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              Now
-            </th>
-            <td itemprop="affiliation hasOccupation" role="cell">
-              <a
-                href="https://www.ifapme.be/formations/coordination-et-encadrement/gestionnaire-de-projet-en-digital-marketing"
-                title="Go to the site of IFAPME"
-                target="_blank"
-                role="link"
-              >
-                Project manager in digital
-                <span class="competence">marketing</span>
-                Training (2 years),
-                <abbr
-                  title="Institut wallon de Formation en Alternance et des indépendants et Petites et Moyennes Entreprises"
-                >
-                  IFAPME,
-                </abbr>
-                Liège, sales, marketing, coordination, supervision&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              2016-2020
-            </th>
-            <td itemprop="alumniOf" role="cell">
-              <a
-                href="http://www.provincedeliege.be/art560"
-                title="Go to the site of HEPL"
-                target="_blank"
-                role="link"
-              >
-                Bachelor in Graphic Techniques,
-                <span class="competence">Graphic Design,</span>
-                Haute école de la Province de Liège&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              2015-2016
-            </th>
-            <td itemprop="alumniOf" role="cell">
-              <a
-                href="http://www.liege1.be/7e-Mathematiques~T-318-0-1"
-                title="Go to the site of Athénée Royale Charles Rogier"
-                target="_blank"
-                role="link"
-              >
-                7
-                <sup>th</sup>
-                Mathematics, Athénée Royale Charles Rogier, Liège&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              2011-2015
-            </th>
-            <td itemprop="alumniOf" role="cell">
-              <a
-                href="http://www.academieliege.be/accueil.html"
-                title="Go to the site of Académie Royale des Beaux-Arts
-              de Liège"
-                target="_blank"
-                role="link"
-              >
-                Secondary,
-                <span class="competence">artistic</span>
-                qualification, Académie Royale des Beaux-Arts de Liège&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              2008-2011
-            </th>
-            <td itemprop="alumniOf" role="cell">
-              General secondary,
-              <span class="competence">English</span>
-              option, Russia, Saint-Petersburg&nbsp;;
-            </td>
-          </tr>
-          <tr role="row">
-            <th role="cell">
-              2003-2011
-            </th>
-            <td itemprop="alumniOf" role="cell">
-              Art's school, artist diploma, Russia, Saint-Petersburg.
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div id="exp">
-        <h3>
-          Professional experience
-        </h3>
-        <table role="table">
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th role="cell">
-              <span itemprop="startDate">February</span>
-              -
-              <span itemprop="endDate">June 2020</span>
-            </th>
-            <td itemprop="roleName" role="cell">
-              <a
-                href="https://www.bozar.be/fr/activities/132787-russian-turn"
-                title="Go to Russian Turn's site"
-                target="_blank"
-                role="link"
-              >
-                Artistic Department Intern, BOZAR, Centre for Fine Arts, Russian
-                Turn program,
-                <span class="competence">management</span>
-                <span class="point">&nbsp;;</span>
-              </a>
-            </td>
-          </tr>
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th itemprop="startDate endDate" role="cell">
-              July 2019
-            </th>
-            <td itemprop="roleName" role="cell">
-              <a
-                href="https://www.idelux.be/fr/accueil.html?IDC=2497"
-                title="Go the site of AIVE-IDELUX"
-                target="_blank"
-                role="link"
-              >
-                Weighbridge operator,
-                <abbr
-                  title="Association Intercommunale pour la protection et la Valorisation de l'Environnement - zone Luxembourg"
-                >
-                  AIVE-IDELUX,
-                </abbr>
-                Tenneville&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th itemprop="startDate endDate" role="cell">
-              1
-              <sup>st</sup>
-              part of 2019
-            </th>
-            <td itemprop="roleName" role="cell">
-              <a
-                href="https://pieceofchic.com/"
-                title="Go to the site of Piece of Chic"
-                target="_blank"
-                role="link"
-              >
-                <span class="competence">Textile design</span>
-                Intern, Piece of Chic, Brussels&nbsp;;
-              </a>
-            </td>
-          </tr>
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th role="cell">
-              <span itemprop="startDate">September</span>
-              to
-              <span itemprop="endDate">August 2018</span>
-            </th>
-            <td itemprop="roleName" role="cell">
-              Preparation of course packs, Haute école de la Province de Liège,
-              Liège,
-              <span class="competence">organization</span>
-              <span class="point">&nbsp;;</span>
-            </td>
-          </tr>
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th itemprop="startDate endDate" role="cell">
-              July 2018
-            </th>
-            <td itemprop="roleName" role="cell">
-              Communal jobist, Sainte-Ode,
-              <span class="competence">stress management, teamwork</span>
-              <span class="point">&nbsp;;</span>
-            </td>
-          </tr>
-          <tr itemscope itemtype="https://schema.org/Role" role="row">
-            <th role="cell">
-              <span itemprop="startDate">2012</span>
-              -
-              <span itemprop="endDate">2014</span>
-            </th>
-            <td itemprop="roleName" role="cell">
-              Episodic seller, Poetry Festival, manage the cash register,
-              <span class="competence">customer contact</span>
-              <span class="point">.</span>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div id="skills" itemprop="knowsAbout">
-        <h3>
-          Technical skills
-        </h3>
-        <img src="assets/skills.png" alt="Technical Skills" />
-      </div>
-    </main>
-
-    <aside>
-      <img
-        src="assets/Yana.jpg"
-        alt="Yana Snytko"
-        width="100"
-        itemprop="image"
-        id="profil"
-        role="img"
-      />
-      <ul id="infos" role="list">
-        <li itemprop="birthDate" id="birthday" role="listitem">
-          <img src="assets/pictos/birthday.png" alt="Birthday's picto" />
-          June 27
-          <sup>th</sup>
-          , 1997
-        </li>
-        <li id="address" role="listitem">
-          <img src="assets/pictos/address.png" alt="Address's picto" />
-          <address itemprop="address contactPoint homeLocation">
-            Rue J.J.Merlot, 1
-            <br />
-            4051 Chaudfontaine
-          </address>
-        </li>
-        <li id="tel" role="listitem">
-          <a
-            href="tel:+32497131747"
-            title="Ring Yana Snytko"
-            itemprop="telephone"
-            role="link"
-          >
-            <img src="assets/pictos/tel.png" alt="Telephone's picto" />
-            +324 97 13 17 47
-          </a>
-        </li>
-        <li id="mail" role="listitem">
-          <a
-            href="mailto:yana@siriusschool.be"
-            title="Send an email to Yana Snytko"
-            itemprop="email"
-            role="link"
-          >
-            <img src="assets/pictos/mail.png" alt="Mail's picto" />
-            yana@siriusschool.be
-          </a>
-        </li>
-        <li id="gitHub" role="listitem">
-          <a
-            href="https://github.com/yanasnytko"
-            title="Go to Yana Snytko's GitHub page (new tab)"
-            target="_blank"
-            role="link"
-          >
-            <img src="assets/pictos/gitHub.png" alt="GitHub's picto" />
-            yanasnytko (GitHub)
-          </a>
-        </li>
-        <li id="linkedIn" role="listitem">
-          <a
-            href="https://www.linkedin.com/in/yana-snytko-729563157/"
-            title="Go to Yana Snytko's LinkedIn page (new tab)"
-            target="_blank"
-            role="link"
-          >
-            <img src="assets/pictos/linkedIn.png" alt="LinkedIn's picto" />
-            Yana Snytko (LinkedIn)
-          </a>
-        </li>
-      </ul>
-      <div id="interets">
-        <h3>
-          Interests
-        </h3>
-        <ul role="list">
-          <li role="listitem">
-            Fencing, boxing, dancing
-          </li>
-          <li role="listitem">
-            Art development
-          </li>
-          <li role="listitem">
-            Honesty
-          </li>
-          <li role="listitem">
-            Everyone’s well-being
-          </li>
-        </ul>
-      </div>
-      <div id="languages">
-        <h3>
-          Languages
-        </h3>
-        <ul role="list">
-          <li itemprop="knowsLanguage nationality" role="listitem">
-            Russian
-          </li>
-          <li class="langLevel" role="listitem">
-            Native
-          </li>
-          <li itemprop="knowsLanguage" role="listitem">
-            French
-          </li>
-          <li class="langLevel" role="listitem">
-            Bilingual
-          </li>
-          <li itemprop="knowsLanguage" role="listitem">
-            English
-          </li>
-          <li class="langLevel" role="listitem">
-            Upper intermediate
-          </li>
-        </ul>
-      </div>
-    </aside>
+    <div id="main-container">
+      <section class="profile-left">
+        <div class="photo">
+          <img src="joellie-sprumont.jpg" alt="une photo de Joéllie Sprumont" />
+        </div>
+        <div class="about">
+          <div id ="about-me">
+            <h3>/About-me</h3>
+          </div>
+          <article>Chargée de communication depuis quelques années maintenant, j'ai décidé d'opérer une <span class="important">réorientation professionnelle</span> dans le domaine du <span class="important">web development</span> et du web design. Je suis actuellement  une formation chez <a href="https://siriushub.be">Sirius Hub</a> à Liège, et ce, jusque novembre 2020.
+          </article>
+        </div>
+        <div class="contact">
+          <div>
+            <h4>/Contact-details</h4>
+          </div>
+            <div id="contact-details">
+              <ul>
+                <li>63/01 rue de l'Académie</li>
+                <li>4000 Liège</li>
+                <li><a href="mailto:joellie@siriusschool.be">joellie@siriusschool.be</a></li>
+                <li>0495/794216</li>
+            </div>
+          <div id="links">
+            <div>
+              <h4>/Links</h4>
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="https://www.linkedin.com/in/joelliesprumont.com">/Linkedin</a>
+                </li>
+                <li>
+                <a href="https://github.com/joellies">/Github</a>
+                </li>
+                <li>
+                <a href="http://joellie.carbonmade.com">/Portfolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="profile-right">
+        <div id="education">
+          <div>
+            <h3>/Education</h3>
+          </div>
+          <div id="table-education">
+            <table>
+              <thead>
+                <tr>
+                  <th>Période</th>
+                  <th>Institution</th>
+                  <th>Intitulé</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="important">06-2020 | 11-2020</span></td>
+                  <td><span class="important">Sirius School</span></td>
+                  <td><span class="important">Développement web</span></td>
+                </tr>
+                <tr>
+                  <td>2015-2016</td>
+                  <td>Cepegra/Forem</td>
+                  <td>Responsable communication web</td>
+                </tr>
+                <tr>
+                  <td>2011-2013</td>
+                  <td>UCL</td>
+                  <td>Master journalisme</td>
+                </tr>
+                <tr>
+                  <td>2008-2011</td>
+                  <td>ULg</td>
+                  <td>Bachelier information & communication</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="work-experience">
+          <div>
+            <h3>/Work-experience</h3>
+          </div>
+          <div id="table-experiences">
+            <table>
+              <thead>
+                <tr>
+                  <th>Période</th>
+                  <th>Lieu</th>
+                  <th>Fonction</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>11-2019 | 06-2020
+                  </td>
+                  <td>Psytoyens asbl</td>
+                  <td>Chargée de communication</td>
+                </tr>
+                <tr>
+                  <td>05-2018 | 12-2018</td>
+                  <td>Joéllie - Cut copy me</td>
+                  <td>Freelance copywriter</td>
+                </tr>
+                <tr>
+                  <td>
+                    04-2016 | 05-2018
+                  </td>
+                  <td>UCM Liège</td>
+                  <td>Chargée de communication</td>
+                </tr>
+                <tr>
+                  <td>2013-2018</td>
+                  <td>Waw Wallonie Magazine</td>
+                  <td>Journaliste freelance</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="skills">
+          <div>
+              <h3>/Skills</h3>
+            </div>
+            <div>
+              <ul class="skills">
+                <li>Rédaction offline & web</li>
+                <li>Wordpress</li>
+                <li>Mailchimp</li>
+                <li>HTML/CSS (bases)</li>
+                <li>Community management</li>
+                <li>English</li>
+                <li>Adobe inDesign</li>
+              </ul>
+            </div>
+          </div>
+          <div class="soft-skills">
+            <div>
+              <h4>/Soft-skills</h4>
+            </div>
+            <div>
+              <ul class="soft-skills">
+                <li>Curiosité</li>
+                <li>Sens des responsabilités</li>
+                <li>Créativité</li>
+              </ul>
+            </div>
+          </div>
+          <div class="interests">
+            <div>
+              <h3 id="interest">/Interests</h3>
+            </div>
+            <div>
+              <ul class="interests">
+                <li>Web</li>
+                <li>Entrepreneuriat</li>
+                <li>Voyages</li>
+                <li>Animaux</li>
+                <li>Photographie</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>@ Joéllie Sprumont - 2020</p>
+      </footer>
+  </div>
   </body>
 </html>
