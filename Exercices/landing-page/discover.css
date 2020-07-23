@@ -13,6 +13,62 @@ body {
   font-size: 14px;
 }
 
+.Album3 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1023px;
+  top: 251px;
+
+  background: url(Cover03.jpg);
+}
+
+.Album2 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1023px;
+  top: 544.84px;
+
+  background: url(Cover02.jpg);
+}
+
+.Album1 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1240px;
+  top: 545px;
+
+
+  background: url(Cover01.jpg);
+}
+
+.Album4 {
+  position: absolute;
+  width: 217px;
+  height: 293px;
+  left: 1240px;
+  top: 251px;
+
+  background: url(Cover04.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 /*<!-- <HERADER> -->*/
 /*header {
@@ -130,7 +186,7 @@ z-index: -1;
 
 
 /*<!-- <FOOTER> -->*/
-.perso_info {
+/*.perso_info {
   display: flex;
   justify-content: left;
 }
@@ -151,7 +207,7 @@ z-index: -1;
 
 /*<!-- <Reseaux Social> -->*/
 
-.RESEAU {
+/*.RESEAU {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -185,7 +241,7 @@ z-index: -1;
 
 /*<!-- <Reseaux Social> -->*/
 
-.Twitter {
+/*.Twitter {
   display: flex;
   align-items: center;
   margin-right: 8px;
@@ -216,12 +272,12 @@ z-index: -1;
 
 
 /* Circle */
-. circle {
+/*. circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
-  border-radius: 100%;
-  position: absolute;
-  opacity: 15%;
+/*border-radius: 100%;
+position: absolute;
+opacity: 15%;
 }
 
 .blue {
@@ -294,7 +350,7 @@ z-index: -1;
 }
 
 
-h2 {
+/*h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 25px;
@@ -357,7 +413,7 @@ h3 {
 }
 
 /* Form */
-  /*#my-form {
+/*#my-form {
   width: 42.5%;
   margin-left: 50%;
   background: #B38244;
@@ -404,7 +460,7 @@ textarea::placeholder {
 }
 
 /* Comments */
-  /*.auteur,
+/*.auteur,
 .comment,
 .delete {
   position: relative;
