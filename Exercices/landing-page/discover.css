@@ -56,146 +56,7 @@ header {
 
 /* FIN HEADER */
 
-/*<!-- <CORPS> -->*
 
-h1 {
-  font-style: italic;
-  color: antiquewhite;
-  font-family: 'Poppins', sans-serif;
-  margin-left: 20px;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 100px;
-  color: aquamarine;
-  text-decoration: none;
-  color: hsl(173, 68%, 83%);
-  text-transform: uppercase;
-  font-style: italic;
-
-}
-
-h3 {
-  font-family: 'Poppins', sans-serif;
-  margin-left: 20px;
-  color: antiquewhite;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 100px;
-  font-style: italic;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  margin-right: 40px;
-
-}
-
-h4 {
-  position: absolute;
-  width: 94px;
-  height: 31px;
-  left: 262px;
-  top: 564px;
-  font-family: 'Poppins', sans-serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFBFB;
-
-
-}*
-
-img.CHARTS {
-  position: absolute;
-  width: 155px;
-  height: 218px;
-  left: 221px;
-  top: 432px;
-
-  background: #121111;
-}
-
-h4 {
-  position: absolute;
-  width: 94px;
-  height: 31px;
-  left: 262px;
-  top: 564px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFBFB;
-
-}
-
-
-img.ALBUMS {
-  position: absolute;
-  width: 155px;
-  height: 218px;
-  left: 434px;
-  top: 432px;
-
-  background: #0E0E0E;
-}
-
-h5 {
-  position: absolute;
-  width: 92px;
-  height: 31px;
-  left: 475px;
-  top: 584px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFAFA;
-}
-
-img.MORE {
-  position: absolute;
-  width: 155px;
-  height: 218px;
-  left: 670px;
-  top: 437px;
-
-  background: #100F0F;
-}
-
-h6 {
-  position: absolute;
-  width: 91px;
-  height: 33px;
-  left: 714px;
-  top: 584px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFF9F9;
-
-}
 
 /*<!-- <ALBUMS> -->*/
 
@@ -618,4 +479,143 @@ textarea::placeholder {
   height: 6vh;
   width: 85%;
   margin: 5vh 0;
+}/*<!-- <CORPS> -->*
+
+h1 {
+  font-style: italic;
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100px;
+  color: aquamarine;
+  text-decoration: none;
+  color: hsl(173, 68%, 83%);
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  color: antiquewhite;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 40px;
+
+}
+
+h4 {
+  position: absolute;
+  width: 94px;
+  height: 31px;
+  left: 262px;
+  top: 564px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFBFB;
+
+
+}*
+
+img.CHARTS {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 221px;
+  top: 432px;
+
+  background: #121111;
+}
+
+h4 {
+  position: absolute;
+  width: 94px;
+  height: 31px;
+  left: 262px;
+  top: 564px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFBFB;
+
+}
+
+
+img.ALBUMS {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 434px;
+  top: 432px;
+
+  background: #0E0E0E;
+}
+
+h5 {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 475px;
+  top: 584px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFAFA;
+}
+
+img.MORE {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 670px;
+  top: 437px;
+
+  background: #100F0F;
+}
+
+h6 {
+  position: absolute;
+  width: 91px;
+  height: 33px;
+  left: 714px;
+  top: 584px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFF9F9;
+
 }
