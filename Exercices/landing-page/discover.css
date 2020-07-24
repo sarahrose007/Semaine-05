@@ -1,4 +1,4 @@
-body {
+/*body {
   background-color: transparent;
   font-family: Poppins,
     sans-serif;
@@ -11,51 +11,119 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
+}*/
+
+.contenaire {
+  width: 1700px;
+  height: 1080px;
+  background: #2F3038;
 }
 
 /*<!-- <HERADER> -->*/
 header {
-  display: flex;
-  justify-content: space-between;
-  width: 85%;
-  height: 7vh;
-  margin: 0 auto;
   position: absolute;
-  top: 5vh;
+  width: 1700px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
 }
 
+/* display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 7vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 5vh;
+  }*/
+
 .logo {
-  display: flex;
+  position: absolute;
+  left: 150px;
+  top: 20px;
+
+
+  /* display: flex;
   align-items: center;
   margin: 10px;
-  margin-left: 40px;
+  margin-left: 40px;*/
 }
 
 /*<!-- <TITRE+NAV> -->*/
+
 .nav {
-  display: flex;
+  position: absolute;
+  left: 1200px;
+  color: white;
+  top: 20px;
+  align-items: center;
+  position: absolute;
+  left: 1300px;
+  color: white;
+  top: 20px
+    /* display: flex;
   align-items: center;
   margin: 10px;
   margin-right: 40px;
   padding: 50px;
   margin: 10px;
-  width: 50%;
+  width: 50%;*/
+
 }
 
 .header-title {
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
   top: 20px;
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  color: white;
+
 }
 
 .nav a {
   margin-left: 20px;
+  position: absolute;
+  left: 1200px;
+  color: white;
+  top: 20px;
 }
 
 /* FIN HEADER */
 
 /*<!-- <CORPS> -->*/
+h1 {
+  position: absolute;
+  width: 640px;
+  height: 84px;
+  left: 134px;
+  top: 276px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
 
+  color: #FFFBFB;
+}
+
+h2 {
+  position: absolute;
+  width: 797px;
+  height: 95px;
+  left: 134px;
+  top: 721px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFBFB;
+
+}
 
 
 
@@ -109,39 +177,13 @@ img.CHARTS {
   height: 218px;
   left: 221px;
   top: 432px;
-
   background: #121111;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 }
 
 h4 {
-  position: absolute;
-  width: 94px;
-  height: 31px;
-  left: 262px;
-  top: 564px;
 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFBFB;
-
-}
-
-
-img.ALBUMS {
-  position: absolute;
-  width: 155px;
-  height: 218px;
-  left: 434px;
-  top: 432px;
-
-  background: #0E0E0E;
-}
-
-h5 {
   position: absolute;
   width: 92px;
   height: 31px;
@@ -157,14 +199,40 @@ h5 {
   color: #FFFAFA;
 }
 
+img.ALBUMS {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 434px;
+  top: 432px;
+  background: #0E0E0E;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
+}
+
+h5 {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 475px;
+  top: 584px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFAFA;
+}
+
 img.MORE {
   position: absolute;
   width: 155px;
   height: 218px;
   left: 670px;
   top: 437px;
-
   background: #100F0F;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 }
 
 h6 {
@@ -173,15 +241,12 @@ h6 {
   height: 33px;
   left: 714px;
   top: 584px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-
   color: #FFF9F9;
-
 }
 
 
