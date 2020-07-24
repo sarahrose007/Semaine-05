@@ -54,6 +54,8 @@ header {
   margin-left: 20px;
 }
 
+/* FIN HEADER */
+
 /*<!-- <CORPS> -->*
 
 h1 {
@@ -240,6 +242,89 @@ h6 {
 }
 
 /*<!-- <FOOTER> -->*
+
+footer {
+  display: flex;
+  /*flex-direction: column;*/
+justify-content: space-between;
+
+border: chartreuse 2px solid;
+border-radius: 20px;
+}
+
+.perso_info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 40px;
+  padding-left: 20px;
+}
+
+.perso_info a {
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  margin-right: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+
+
+.footer-title {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
+
+
+/*<!-- <Reseaux Social> -->*/
+
+.RESEAU {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 14px;
+  /* border: chartreuse 5px solid;
+  border-radius: 20px;
+  padding: 50px;*/
+
+}
+
+.RESEAU a {
+  margin-left: 20px;
+  /* font-size: 14px;
+  -weight: bold;
+  text-decoration: none;
+  color: #2ec4b6;
+  text-transform: uppercase;
+  font-style: italic;*/
+
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+}
+
+.a:hover {
+  font-size: 14px;
+
+  text-decoration: none;
+  color: #2ec4b6;
+  font-style: italic;
+}
+
+
+
+
+
+
 .TW {
   position: absolute;
   width: 67px;
@@ -325,11 +410,11 @@ h6 {
   top: 25px;}*/
 
 
-/* Circle */
-/*. circle {
+  /* Circle */
+  /*. circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
-/*border-radius: 100%;
+  /*border-radius: 100%;
 position: absolute;
 opacity: 15%;
 }
@@ -426,7 +511,7 @@ opacity: 15%;
 }
 
 /* Form */
-/*#my-form {
+  /*#my-form {
   width: 42.5%;
   margin-left: 50%;
   background: #B38244;
@@ -473,7 +558,7 @@ textarea::placeholder {
 }
 
 /* Comments */
-/*.auteur,
+  /*.auteur,
 .comment,
 .delete {
   position: relative;

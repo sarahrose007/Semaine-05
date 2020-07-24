@@ -30,41 +30,33 @@ header {
   align-items: center;
   margin: 10px;
   margin-left: 40px;
-  padding: 50px;
-
-
 }
 
+.
+
+/*<!-- <TITRE+NAV> -->*/
 .nav {
   display: flex;
   align-items: center;
   margin: 10px;
   margin-right: 40px;
+  border: chartreuse 5px solid;
+  border-radius: 20px;
   padding: 50px;
   margin: 10px;
   width: 50%;
-  text-decoration: none;
-  color: #ffff;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 .header-title {
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
-  text-decoration: none;
-  color: #ffff;
-  text-transform: uppercase;
-  font-style: italic;
+  top: 20px;
 }
 
 .nav a {
   margin-left: 20px;
-  text-decoration: none;
-  color: #ffff;
-  text-transform: uppercase;
-  font-style: italic;
 }
+
 
 /* FIN HEADER */
 
@@ -102,7 +94,7 @@ position: absolute;
 bottom: 0;
 margin-left: 7.5%;
 z-index: -1;
-*/
+
 
 
 /*<!-- <FOOTER> -->*/
