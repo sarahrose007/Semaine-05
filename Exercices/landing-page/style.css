@@ -14,6 +14,7 @@ body {
 }
 
 /*<!-- <HERADER> -->*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -80,6 +81,7 @@ z-index: -1;
 
 
 /*<!-- <FOOTER> -->*/
+
 footer {
   display: flex;
   /*flex-direction: column;*/
@@ -97,6 +99,7 @@ footer {
   margin-right: 40px;
 }
 
+
 .footer-title {
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
@@ -109,8 +112,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10px;
-
+  margin: 40px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
@@ -119,33 +121,21 @@ footer {
   border-radius: 20px;
   padding: 50px;
 
-
 }
 
 .RESEAU a {
   margin-left: 20px;
-  font-size: 14px;
+  /* font-size: 14px;
   -weight: bold;
   text-decoration: none;
   color: #2ec4b6;
   text-transform: uppercase;
-  font-style: italic;
+  font-style: italic;*/
   border: chartreuse 5px solid;
   border-radius: 20px;
   padding: 50px;
   margin: 10px;
   width: 50%;
-}
-
-/*<!-- <Reseaux Social> -->*/
-
-.Twitter {
-  display: flex;
-  align-items: center;
-  margin-right: 8px;
-  margin: 10px;
-  margin-right: 40px;
-
 }
 
 .a:hover {
@@ -157,7 +147,20 @@ footer {
   font-style: italic;
 }
 
-.Facebook {
+/*<!-- <Reseaux Social> -->*/
+
+/*.Twitter {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  margin: 10px;
+  margin-right: 40px;
+
+}*/
+
+
+
+/*.Facebook {
   display: inline-block;
   align-items: center;
   margin: 10px;
@@ -170,6 +173,7 @@ footer {
 
 
 /* Circle */
+
 . Circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
