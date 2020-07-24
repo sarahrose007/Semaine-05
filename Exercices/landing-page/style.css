@@ -30,6 +30,9 @@ header {
   align-items: center;
   margin: 10px;
   margin-left: 40px;
+  padding: 50px;
+
+
 }
 
 .nav {
@@ -37,20 +40,30 @@ header {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
-  border: chartreuse 5px solid;
-  border-radius: 20px;
   padding: 50px;
   margin: 10px;
   width: 50%;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .header-title {
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .nav a {
   margin-left: 20px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 /* FIN HEADER */
@@ -58,15 +71,16 @@ header {
 /*<!-- <CORPS> -->*/
 
 h1 {
-  font-style: italic;
+
+
   color: antiquewhite;
-  font-family: 'Poppins', sans-serif;
-  margin-left: 20px;
-  text-decoration: none;
-  color: #2ec4b6;
-  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  margin-left: 20px;
+  text-decoration: greenyellow;
 }
+
+
 
 /* image de la femme noire
 #Gril {
@@ -87,7 +101,7 @@ footer {
   /*flex-direction: column;*/
   justify-content: space-between;
 
-  border: white 5px solid;
+  border: chartreuse 2px solid;
   border-radius: 20px;
 }
 
@@ -102,7 +116,6 @@ footer {
 .perso_info a {
   display: flex;
   justify-content: left;
-
   font-weight: bold;
   margin-right: 40px;
   padding-left: 20px;
@@ -132,9 +145,9 @@ footer {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 14px;
-  border: chartreuse 5px solid;
+  /* border: chartreuse 5px solid;
   border-radius: 20px;
-  padding: 50px;
+  padding: 50px;*/
 
 }
 
@@ -146,9 +159,8 @@ footer {
   color: #2ec4b6;
   text-transform: uppercase;
   font-style: italic;*/
-  border: chartreuse 5px solid;
-  border-radius: 20px;
-  padding: 50px;
+
+  padding: 20px;
   margin: 10px;
   width: 50%;
 }
