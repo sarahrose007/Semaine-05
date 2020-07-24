@@ -95,8 +95,23 @@ footer {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin: 10px;
   margin-right: 40px;
+  padding-left: 20px;
+}
+
+.perso_info a {
+  display: flex;
+  justify-content: left;
+
+  font-weight: bold;
+  margin-right: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-style: italic;
+
 }
 
 
@@ -140,10 +155,9 @@ footer {
 
 .a:hover {
   font-size: 14px;
-  -weight: bold;
+
   text-decoration: none;
   color: #2ec4b6;
-  text-transform: uppercase;
   font-style: italic;
 }
 
@@ -174,7 +188,7 @@ footer {
 
 /* Circle */
 
-. Circle {
+Circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
   border-radius: 100%;
@@ -279,7 +293,16 @@ h3 {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
+}
 
-  #submit-btn {
-    background-color: chartreuse;
-  }
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Sublime-btn {
+  background-color: chartreuse;
+
+
+}
