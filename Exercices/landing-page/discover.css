@@ -55,7 +55,7 @@ header {
 /* FIN HEADER */
 
 /*<!-- <CORPS> -->*/
-.CUBE {}
+
 
 
 
@@ -102,6 +102,93 @@ header {
 }
 
 /*<!-- <ICONS> -->*/
+
+img.CHARTS {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 221px;
+  top: 432px;
+
+  background: #121111;
+}
+
+h4 {
+  position: absolute;
+  width: 94px;
+  height: 31px;
+  left: 262px;
+  top: 564px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFBFB;
+
+}
+
+
+img.ALBUMS {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 434px;
+  top: 432px;
+
+  background: #0E0E0E;
+}
+
+h5 {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 475px;
+  top: 584px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFAFA;
+}
+
+img.MORE {
+  position: absolute;
+  width: 155px;
+  height: 218px;
+  left: 670px;
+  top: 437px;
+
+  background: #100F0F;
+}
+
+h6 {
+  position: absolute;
+  width: 91px;
+  height: 33px;
+  left: 714px;
+  top: 584px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFF9F9;
+
+}
+
+
+
+
+
+
 
 /*<!-- <FOOTER> -->*
 
