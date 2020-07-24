@@ -37,8 +37,6 @@ header {
   align-items: center;
   margin: 10px;
   margin-right: 40px;
-  border: chartreuse 5px solid;
-  border-radius: 20px;
   padding: 50px;
   margin: 10px;
   width: 50%;
@@ -56,6 +54,9 @@ header {
 
 /* FIN HEADER */
 
+/*<!-- <CORPS> -->*/
+.CUBE {}
+
 
 
 /*<!-- <ALBUMS> -->*/
@@ -68,8 +69,6 @@ header {
   top: 251px;
   background: url(Cover03.jpg);
 }
-
-
 
 .Album2 {
   position: absolute;
@@ -102,16 +101,22 @@ header {
   background: url(Cover04.jpg);
 }
 
+/*<!-- <ICONS> -->*/
+
 /*<!-- <FOOTER> -->*
 
 footer {
   display: flex;
   /*flex-direction: column;*/
-justify-content: space-between;
 
-border: chartreuse 2px solid;
-border-radius: 20px;
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 }
+
+
 
 .perso_info {
   display: flex;
@@ -186,7 +191,7 @@ border-radius: 20px;
 
 
 
-.TW {
+/*.TW {
   position: absolute;
   width: 67px;
   height: 37px;
@@ -271,11 +276,11 @@ border-radius: 20px;
   top: 25px;}*/
 
 
-  /* Circle */
-  /*. circle {
+/* Circle */
+/*. circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
-  /*border-radius: 100%;
+/*border-radius: 100%;
 position: absolute;
 opacity: 15%;
 }
@@ -372,7 +377,7 @@ opacity: 15%;
 }
 
 /* Form */
-  /*#my-form {
+/*#my-form {
   width: 42.5%;
   margin-left: 50%;
   background: #B38244;
@@ -419,7 +424,7 @@ textarea::placeholder {
 }
 
 /* Comments */
-  /*.auteur,
+/*.auteur,
 .comment,
 .delete {
   position: relative;
