@@ -17,25 +17,23 @@
   width: 1700px;
   height: 1080px;
   background: #2F3038;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
 }
 
 /*<!-- <HERADER> -->*/
 header {
   position: absolute;
+  justify-content: space-between;
   width: 1700px;
   height: 100px;
   left: 0px;
   top: 0px;
 }
-
-/* display: flex;
-    justify-content: space-between;
-    width: 85%;
-    height: 7vh;
-    margin: 0 auto;
-    position: absolute;
-    top: 5vh;
-  }*/
 
 .logo {
   position: absolute;
@@ -261,15 +259,13 @@ footer {
 
 footer {
 
-  /*display: flex;
-  justify-content: space-between;
-  border: chartreuse 2px solid;
-  border-radius: 20px;*/
   position: absolute;
   width: 1700px;
   height: 77px;
   left: 0px;
   top: 1003px;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 
   background: #141313;
 }
@@ -292,10 +288,11 @@ footer {
   line-height: 28px;
 
   color: #FFFCFC;
-
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 }
 
-.perso_info a {
+/*.perso_info a {
   display: flex;
   justify-content: left;
   font-weight: bold;
@@ -307,7 +304,7 @@ footer {
   text-transform: uppercase;
   font-style: italic;
 
-}
+}*/
 
 TWI {
 
@@ -376,7 +373,7 @@ FB {
   font-size: 14px;
   /* border: chartreuse 5px solid;
   border-radius: 20px;
-  padding: 50px;*/
+  padding: 50px;
   position: absolute;
   width: 67px;
   height: 37px;
@@ -400,7 +397,7 @@ FB {
   text-decoration: none;
   color: #2ec4b6;
   text-transform: uppercase;
-  font-style: italic;*/
+  font-style: italic;
 
   padding: 20px;
   margin: 10px;
@@ -413,14 +410,14 @@ FB {
   text-decoration: none;
   color: #2ec4b6;
   font-style: italic;
-}
+}*/
 
 
 
 
 
 
-/*.TW {
+  /*.TW {
   position: absolute;
   width: 67px;
   height: 37px;
@@ -505,11 +502,11 @@ FB {
   top: 25px;}*/
 
 
-/* Circle */
-/*. circle {
+  /* Circle */
+  /*. circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
-/*border-radius: 100%;
+  /*border-radius: 100%;
 position: absolute;
 opacity: 15%;
 }
@@ -606,7 +603,7 @@ opacity: 15%;
 }
 
 /* Form */
-/*#my-form {
+  /*#my-form {
   width: 42.5%;
   margin-left: 50%;
   background: #B38244;
@@ -653,7 +650,7 @@ textarea::placeholder {
 }
 
 /* Comments */
-/*.auteur,
+  /*.auteur,
 .comment,
 .delete {
   position: relative;
