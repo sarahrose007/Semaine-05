@@ -278,11 +278,7 @@ footer {
 
 .perso_info {
 
-  /*display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-right: 40px;
-  padding-left: 20px;*/
+
   position: absolute;
   width: 96px;
   height: 16px;
@@ -314,19 +310,23 @@ footer {
 }
 
 TWI {
+
+  position: absolute;
+  width: 67px;
+  height: 37px;
+  left: 1060px;
+  top: 25px;
+
+}
+
+FB {
+
   position: absolute;
   width: 35px;
   height: 28px;
   left: 999px;
-  top: 25px
-}
+  top: 25px;
 
-FB {
-  position: absolute;
-  width: 35px;
-  height: 28px;
-  left: 1299px;
-  top: 25px
 }
 
 .footer-title {
@@ -337,9 +337,9 @@ FB {
   line-height: 28px;
   margin-left: 20px;
   position: absolute;
-  width: 96px;
+  width: 79px;
   height: 16px;
-  left: 109px;
+  left: 537px;
   top: 25px;
 
   color: #FFFCFC;
