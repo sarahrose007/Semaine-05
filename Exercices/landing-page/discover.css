@@ -171,7 +171,7 @@ h2 {
 
 /*<!-- <ICONS> -->*/
 
-img.CHARTS {
+.CHARTS {
   position: absolute;
   width: 155px;
   height: 218px;
@@ -183,23 +183,21 @@ img.CHARTS {
 }
 
 h4 {
-
   position: absolute;
-  width: 92px;
+  width: 94px;
   height: 31px;
-  left: 475px;
-  top: 584px;
-
+  left: 19px;
+  top: 219px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-
   color: #FFFAFA;
+
 }
 
-img.ALBUMS {
+.ALBUMS {
   position: absolute;
   width: 155px;
   height: 218px;
@@ -214,8 +212,8 @@ h5 {
   position: absolute;
   width: 92px;
   height: 31px;
-  left: 475px;
-  top: 584px;
+  left: 31px;
+  top: 209px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -224,7 +222,7 @@ h5 {
   color: #FFFAFA;
 }
 
-img.MORE {
+.MORE {
   position: absolute;
   width: 155px;
   height: 218px;
@@ -239,8 +237,8 @@ h6 {
   position: absolute;
   width: 91px;
   height: 33px;
-  left: 714px;
-  top: 584px;
+  /* left: 642px; */
+  top: 204px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -262,20 +260,43 @@ footer {
   /*flex-direction: column;*/
 
 footer {
-  display: flex;
+
+  /*display: flex;
   justify-content: space-between;
   border: chartreuse 2px solid;
-  border-radius: 20px;
+  border-radius: 20px;*/
+  position: absolute;
+  width: 1700px;
+  height: 77px;
+  left: 0px;
+  top: 1003px;
+
+  background: #141313;
 }
 
 
 
 .perso_info {
-  display: flex;
+
+  /*display: flex;
   justify-content: left;
   align-items: center;
   margin-right: 40px;
-  padding-left: 20px;
+  padding-left: 20px;*/
+  position: absolute;
+  width: 96px;
+  height: 16px;
+  left: 109px;
+  top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFCFC;
+
 }
 
 .perso_info a {
@@ -292,17 +313,60 @@ footer {
 
 }
 
+TWI {
+  position: absolute;
+  width: 35px;
+  height: 28px;
+  left: 999px;
+  top: 25px
+}
+
+FB {
+  position: absolute;
+  width: 35px;
+  height: 28px;
+  left: 1299px;
+  top: 25px
+}
 
 .footer-title {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
   margin-left: 20px;
+  position: absolute;
+  width: 96px;
+  height: 16px;
+  left: 109px;
+  top: 25px;
+
+  color: #FFFCFC;
+
 }
 
+.footer-title1 {
+  position: absolute;
+  width: 67px;
+  height: 37px;
+  left: 1369px;
+  top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFF3F3;
+}
 
 /*<!-- <Reseaux Social> -->*/
 
 .RESEAU {
-  display: flex;
+
+  /*display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 40px;
@@ -313,6 +377,19 @@ footer {
   /* border: chartreuse 5px solid;
   border-radius: 20px;
   padding: 50px;*/
+  position: absolute;
+  width: 67px;
+  height: 37px;
+  left: 1060px;
+  top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFF3F3;
 
 }
 
