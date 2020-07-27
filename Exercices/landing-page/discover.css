@@ -14,7 +14,7 @@
 }*/
 
 .contenaire {
-  width: 1700px;
+  width: 2000px;
   height: 1080px;
   background: #2F3038;
   margin-left: 10px;
@@ -28,59 +28,50 @@
 /*<!-- <HERADER> -->*/
 header {
   position: absolute;
-  justify-content: space-between;
   width: 1700px;
   height: 100px;
   left: 0px;
   top: 0px;
+  border: chartreuse 2px solid;
+  border-radius: 20px;
 }
 
 .logo {
   position: absolute;
   left: 150px;
   top: 20px;
-
-
-  /* display: flex;
-  align-items: center;
-  margin: 10px;
-  margin-left: 40px;*/
 }
 
 /*<!-- <TITRE+NAV> -->*/
 
 .nav {
   position: absolute;
-  left: 1200px;
+  left: 600px;
   color: white;
   top: 20px;
-  align-items: center;
-  position: absolute;
-  left: 1300px;
-  color: white;
-  top: 20px
-    /* display: flex;
-  align-items: center;
-  margin: 10px;
-  margin-right: 40px;
-  padding: 50px;
-  margin: 10px;
-  width: 50%;*/
+}
 
+.nav1 {
+  position: absolute;
+  left: 700px;
+  color: white;
+  top: 20px;
 }
 
 .header-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 20px;
   top: 20px;
   position: absolute;
-  left: 230px;
-  top: 20px;
+  left: 98px;
   color: white;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
 
 }
 
-.nav a {
+/*.nav a {
   margin-left: 20px;
   position: absolute;
   left: 1200px;
@@ -97,12 +88,13 @@ h1 {
   height: 84px;
   left: 134px;
   top: 276px;
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 36px;
   line-height: 84px;
-
+  font-size: 36px;
+  line-height: 60px;
   color: #FFFBFB;
 }
 
@@ -112,13 +104,11 @@ h2 {
   height: 95px;
   left: 134px;
   top: 721px;
-
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 22px;
   line-height: 42px;
-
   color: #FFFBFB;
 
 }
@@ -178,20 +168,21 @@ h2 {
   background: #121111;
   border: chartreuse 2px solid;
   border-radius: 20px;
+
 }
 
 h4 {
   position: absolute;
   width: 94px;
   height: 31px;
-  left: 19px;
-  top: 219px;
-  font-family: Roboto;
-  font-style: normal;
+  left: 245px;
+  top: 618px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFAFA;
+  font-size: 22px;
+  line-height: 42px;
+  color: #FFFBFB;
 
 }
 
@@ -210,14 +201,15 @@ h5 {
   position: absolute;
   width: 92px;
   height: 31px;
-  left: 31px;
-  top: 209px;
-  font-family: Roboto;
-  font-style: normal;
+  left: 489px;
+  top: 577px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFAFA;
+  font-size: 22px;
+  line-height: 42px;
+  color: #FFFBFB;
 }
 
 .MORE {
@@ -235,27 +227,22 @@ h6 {
   position: absolute;
   width: 91px;
   height: 33px;
-  /* left: 642px; */
-  top: 204px;
-  font-family: Roboto;
-  font-style: normal;
+  left: 715px;
+  top: 598px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFF9F9;
+  font-size: 22px;
+  line-height: 42px;
+  color: #FFFBFB;
+
 }
 
 
 
 
 
-
-
-/*<!-- <FOOTER> -->*
-
-footer {
-  display: flex;
-  /*flex-direction: column;*/
 
 footer {
 
@@ -281,8 +268,8 @@ footer {
   left: 109px;
   top: 25px;
 
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
@@ -306,37 +293,37 @@ footer {
 
 }*/
 
-TWI {
+.TWI {
 
   position: absolute;
   width: 67px;
   height: 37px;
-  left: 1060px;
+  left: 1120px;
   top: 25px;
 
 }
 
-FB {
+.FB {
 
   position: absolute;
-  width: 35px;
-  height: 28px;
-  left: 999px;
+  width: 67px;
+  height: 37px;
+  left: 1369px;
   top: 25px;
 
 }
 
 .footer-title {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  margin-left: 20px;
   position: absolute;
   width: 79px;
   height: 16px;
-  left: 537px;
+
+  left: 1203px;
   top: 25px;
 
   color: #FFFCFC;
@@ -347,7 +334,8 @@ FB {
   position: absolute;
   width: 67px;
   height: 37px;
-  left: 1369px;
+  left: 1445px;
+
   top: 25px;
 
   font-family: Roboto;
@@ -361,37 +349,8 @@ FB {
 
 /*<!-- <Reseaux Social> -->*/
 
-.RESEAU {
-
-  /*display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 14px;
-  /* border: chartreuse 5px solid;
-  border-radius: 20px;
-  padding: 50px;
-  position: absolute;
-  width: 67px;
-  height: 37px;
-  left: 1060px;
-  top: 25px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFF3F3;
-
-}
-
 .RESEAU a {
-  margin-left: 20px;
+
   /* font-size: 14px;
   -weight: bold;
   text-decoration: none;
@@ -411,95 +370,6 @@ FB {
   color: #2ec4b6;
   font-style: italic;
 }*/
-
-
-
-
-
-
-  /*.TW {
-  position: absolute;
-  width: 67px;
-  height: 37px;
-  left: 1060px;
-  top: 25px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFF3F3;
-
-}
-
-.FB {
-  position: absolute;
-  width: 67px;
-  height: 37px;
-  left: 1369px;
-  top: 25px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFF3F3;
-
-}
-
-
-#Abouts {
-  position: absolute;
-  width: 96px;
-  height: 16px;
-  left: 109px;
-  top: 25px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFCFC;
-}
-
-#Contact {
-  position: absolute;
-  width: 84px;
-  height: 28px;
-  left: 325px;
-  top: 25px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #FFFAFA;
-
-}
-
-
-.FB {
-  /* display: inline-block;
-  align-items: center;
-  margin: 10px;
-  margin-left: 1250 px;
-  font-size: 20px;
-  line-height: 50px;
-  top: -3vh;
-  font-family: 'Poppins', sans-serif;
-  position: absolute;
-  width: 67px;
-  height: 37px;
-  left: 1369px;
-  top: 25px;}*/
 
 
   /* Circle */
@@ -579,10 +449,6 @@ opacity: 15%;
   z-index: -999;
   opacity: 15%;
 }
-
-
-
-
 
 
   /*main {
