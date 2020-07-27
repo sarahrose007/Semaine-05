@@ -267,7 +267,6 @@ footer {
   height: 16px;
   left: 109px;
   top: 25px;
-
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: normal;
@@ -275,8 +274,23 @@ footer {
   line-height: 28px;
 
   color: #FFFCFC;
-  border: chartreuse 2px solid;
-  border-radius: 20px;
+
+}
+
+.index {
+  position: absolute;
+  width: 84px;
+  height: 28px;
+  left: 325px;
+  top: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFCFC;
+
 }
 
 /*.perso_info a {
