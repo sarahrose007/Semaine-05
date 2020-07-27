@@ -363,9 +363,9 @@ footer {
 
 /*<!-- <Reseaux Social> -->*/
 
-.RESEAU a {
 
-  /* font-size: 14px;
+
+/*  reseau font-size: 14px;
   -weight: bold;
   text-decoration: none;
   color: #2ec4b6;
@@ -386,11 +386,11 @@ footer {
 }*/
 
 
-  /* Circle */
-  /*. circle {
+/* Circle */
+/*. circle {
   z-index: -999;
   /* S'assurer que les bulles seront tjs en dessous des autres éléments */
-  /*border-radius: 100%;
+/*border-radius: 100%;
 position: absolute;
 opacity: 15%;
 }
@@ -483,7 +483,7 @@ opacity: 15%;
 }
 
 /* Form */
-  /*#my-form {
+/*#my-form {
   width: 42.5%;
   margin-left: 50%;
   background: #B38244;
@@ -530,7 +530,7 @@ textarea::placeholder {
 }
 
 /* Comments */
-  /*.auteur,
+/*.auteur,
 .comment,
 .delete {
   position: relative;
@@ -728,5 +728,3 @@ h6 {
   line-height: 28px;
 
   color: #FFF9F9;
-
-}
