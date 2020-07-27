@@ -35,7 +35,7 @@ header {
 .
 
 /*<!-- <TITRE+NAV> -->*/
-.nav {
+nav {
   display: flex;
   align-items: center;
   margin: 10px;
